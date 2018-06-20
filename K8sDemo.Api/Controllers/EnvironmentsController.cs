@@ -10,7 +10,7 @@ namespace K8sDemo.Api.Controllers
         [HttpGet("version")]
         public IActionResult GetVersion()
         {
-            return Ok($"k8s-demo-api v1 is running on {Environment.GetEnvironmentVariable("HOSTNAME")}");
+            return Ok($"k8s-demo-api v2 is running on {Environment.GetEnvironmentVariable("HOSTNAME")}");
         }
     }
 }
